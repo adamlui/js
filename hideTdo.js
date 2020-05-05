@@ -17,7 +17,7 @@ function hideTdo() {
       timer2 = setTimeout(hideTdo, 1);
       return;
     }
-    document.querySelector('#tidio-chat iframe').contentDocument.querySelector      (`a.powered`).remove();
+    document.querySelector('#tidio-chat iframe').contentDocument.querySelector(`a.powered`).remove();
     return true;
   }
 }
